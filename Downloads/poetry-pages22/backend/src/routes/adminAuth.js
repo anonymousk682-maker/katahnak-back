@@ -38,8 +38,6 @@ router.post('/admin/logout', (req,res) => {
   res.json({ message: 'Logged out' });
 });
 
-module.exports = router;
-
 
 router.get('/admin/me', auth, async (req, res) => {
   try {
@@ -56,3 +54,7 @@ router.get('/admin/me', auth, async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 });
+
+module.exports = router;
+
+
