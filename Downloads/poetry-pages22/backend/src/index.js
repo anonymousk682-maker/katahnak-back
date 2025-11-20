@@ -22,10 +22,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
+
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'https://katahnak-back.vercel.app/',
-  credentials: true
+  origin: "https://katahnak-back.vercel.app/",
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
+
 
 // routes
 app.use('/api', publicRoutes);
