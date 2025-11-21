@@ -7,6 +7,8 @@ const publicRoutes = require('./routes/public');
 const authRoutes = require('./routes/adminAuth');
 const adminRoutes = require('./routes/adminPoems');
 const errorHandler = require('./middlewares/errorHandler');
+const settingsRoutes = require('./routes/settings');   
+
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -35,6 +37,8 @@ app.use(cors({
 app.use('/api', publicRoutes);
 app.use('/api', authRoutes);
 app.use('/api', adminRoutes);
+app.use("/api", settingsRouter);
+
 
 // error handler (after routes)
 app.use(errorHandler);
