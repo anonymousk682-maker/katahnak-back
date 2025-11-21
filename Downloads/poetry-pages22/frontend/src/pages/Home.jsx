@@ -178,11 +178,11 @@ export default function Home() {
             <div className="mt-8 space-y-4 text-white">
               <div className="flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--accent)]" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                <a href="mailto:admin@example.com" className="text-white/90 hover:text-[var(--accent-light)] transition">admin@example.com</a>
+                <a href="mailto:karankaul02@gmail.com" className="text-white/90 hover:text-[var(--accent-light)] transition">karankaul@gmail.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--accent)]" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/></svg>
-                <span className="text-white/90">The Digital Verse (Online)</span>
+                <span className="text-white/90">Find me soon with my Poems</span>
               </div>
             </div>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
         <div className="container-max flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <div className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>PoetryHub</div>
-            <div className="text-sm text-[var(--muted)] mt-1">© {new Date().getFullYear()} — Read. Breathe. Return.</div>
+            <div className="text-sm text-[var(--muted)] mt-1">© {new Date().getFullYear()} — Read. Breathe. Return. by Karan</div>
           </div>
 
           <div className="flex items-center gap-4 text-white/70">
