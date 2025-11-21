@@ -3,7 +3,8 @@ const SiteSettings = require('../models/SiteSettings');
 
 const router = express.Router();
 
-router.get('/', async (req, res, next) => {
+// GET /api/settings
+router.get('/settings', async (req, res, next) => {
   try {
     let settings = await SiteSettings.findOne();
 
@@ -22,7 +23,8 @@ router.get('/', async (req, res, next) => {
   }
 });
 
-router.put('/', async (req, res, next) => {
+// PUT /api/settings
+router.put('/settings', async (req, res, next) => {
   try {
     let settings = await SiteSettings.findOne();
 
