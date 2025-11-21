@@ -37,7 +37,7 @@ app.use(cors({
 app.use('/api', publicRoutes);
 app.use('/api', authRoutes);
 app.use('/api', adminRoutes);
-app.use("/api", settingsRouter);
+app.use("/api", settingsRoutes);
 
 
 // error handler (after routes)
