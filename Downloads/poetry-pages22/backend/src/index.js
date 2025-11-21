@@ -34,10 +34,10 @@ app.use(cors({
 
 
 // routes
+app.use('/api/settings', settingsRoutes);
 app.use('/api', publicRoutes);
 app.use('/api', authRoutes);
 app.use('/api', adminRoutes);
-app.use("/api", settingsRoutes);
 
 
 // error handler (after routes)
