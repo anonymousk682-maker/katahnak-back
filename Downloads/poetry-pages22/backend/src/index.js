@@ -7,7 +7,7 @@ const publicRoutes = require('./routes/public');
 const authRoutes = require('./routes/adminAuth');
 const adminRoutes = require('./routes/adminPoems');
 const errorHandler = require('./middlewares/errorHandler');
-const settingsRoutes = require('./routes/settings');   
+// const settingsRoutes = require('./routes/settings');   
 
 
 const app = express();
@@ -34,7 +34,7 @@ app.use(cors({
 
 
 // routes
-app.use('/api/settings', settingsRoutes);
+// app.use('/api/settings', settingsRoutes);
 app.use('/api', publicRoutes);
 app.use('/api', authRoutes);
 app.use('/api', adminRoutes);
