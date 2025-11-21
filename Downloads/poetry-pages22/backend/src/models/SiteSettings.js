@@ -1,11 +1,11 @@
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
 
-const siteSettingsSchema = new mongoose.Schema({
-  heroQuote: String,
-  featuredCardQuote: String,
-  contactEmail: String,
-  locationText: String,
-});
+// const siteSettingsSchema = new mongoose.Schema({
+//   heroQuote: String,
+//   featuredCardQuote: String,
+//   contactEmail: String,
+//   locationText: String,
+// });
 
-export default mongoose.model("SiteSettings", siteSettingsSchema);
+// export default mongoose.model("SiteSettings", siteSettingsSchema);
 
