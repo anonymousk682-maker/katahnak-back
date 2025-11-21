@@ -43,7 +43,7 @@ function Hero() {
           {/* Featured Card (Image/Quote) */}
           <div className="hidden lg:block lg:col-span-5">
             <div className="card-surface rounded-2xl p-6 shadow-2xl transition duration-500 hover:shadow-white/10">
-              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=60" alt="poetry" className="rounded-xl w-full object-cover h-[400px]" />
+              <img src="https://images.unsplash.com/photo-1643377542165-9818a038c880?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="poetry" className="rounded-xl w-full object-cover h-[400px]" />
               <div className="mt-5 text-white/90">
                 <h3 className="text-xl font-semibold">Today's Featured Thought</h3>
                 <p className="mt-2 text-sm text-[var(--muted)] font-serif">"Poetry is life itself — it starts with words and becomes experience."</p>
